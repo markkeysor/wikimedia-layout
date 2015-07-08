@@ -1,1 +1,60 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
 
+.wrapper {
+	background-color: #FFF;
+	margin: 3% auto;
+	height: 800px;
+	width: 776px;
+}
+
+.content {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 30px;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	line-height: 170%;
+}
+
+.content span {
+	font-weight: bold;
+}
+
+.boldRight {
+	float: right;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+
+.clearFix {
+	clear: both;
+}
+
+.imageLinks {
+	width: 100%;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+
+img {
+	margin: 5px 0;
+	width: 135px;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:visted {
+	color: blue;
+}
